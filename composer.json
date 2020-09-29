@@ -1,0 +1,20 @@
+{
+  "name": "rudderrave/yii2-rave-comment",
+  "description": "Comments Module For Rave CMS&ERP",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Rave",
+      "email": "rudder.rave@gmail.com"
+    }
+  ],
+  "require": {
+    "rudderrave/yii2-rave-core-rest": "dev-master",
+    "rudderrave/yii2-comments": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ravesoft\\comment\\": ""
+    }
+  }
+}
