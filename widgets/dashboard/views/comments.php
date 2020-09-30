@@ -13,7 +13,7 @@ Comments::getInstance()->commentsAssetUrl = $commentsAsset->baseUrl;
 
     <div class="pull-<?= $position ?> col-lg-<?= $width ?> widget-height-<?= $height ?>">
         <div class="panel panel-default dw-widget">
-            <div class="panel-heading"><?= Yii::t('yee', 'Comments Activity') ?></div>
+            <div class="panel-heading"><?= Yii::t('rave', 'Comments Activity') ?></div>
             <div class="panel-body">
 
                 <?php if (count($recentComments)): ?>
@@ -51,7 +51,7 @@ Comments::getInstance()->commentsAssetUrl = $commentsAsset->baseUrl;
                     </div>
 
                 <?php else: ?>
-                    <h4><em><?= Yii::t('yee', 'No comments found.') ?></em></h4>
+                    <h4><em><?= Yii::t('rave', 'No comments found.') ?></em></h4>
                 <?php endif; ?>
 
             </div>

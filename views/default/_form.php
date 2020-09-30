@@ -89,10 +89,10 @@ use ravesoft\widgets\ActiveForm;
                         </div>
 
                         <div class="form-group">
-                            <?= Html::submitButton(Yii::t('yee', 'Save'), ['class' => 'btn btn-primary']) ?>
+                            <?= Html::submitButton(Yii::t('rave', 'Save'), ['class' => 'btn btn-primary']) ?>
 
                             <?=
-                            Html::a(Yii::t('yee', 'Delete'), ['/comment/default/delete', 'id' => $model->id], [
+                            Html::a(Yii::t('rave', 'Delete'), ['/comment/default/delete', 'id' => $model->id], [
                                 'class' => 'btn btn-default',
                                 'data' => [
                                     'confirm' => Yii::t('yii', 'Are you sure you want to delete this item?'),

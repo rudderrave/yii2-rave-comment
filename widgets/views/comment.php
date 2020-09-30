@@ -23,7 +23,7 @@ Comments::getInstance()->commentsAssetUrl = $commentsAsset->baseUrl;
         </div>
         <div class="content text-justify">
             <?= $comment->shortContent ?>
-            <?= Html::a(Yii::t('yee', 'Read more...'), $comment->url) ?>
+            <?= Html::a(Yii::t('rave', 'Read more...'), $comment->url) ?>
         </div>
     </div>
 </div>

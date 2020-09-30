@@ -34,10 +34,10 @@ $this->params['breadcrumbs'][] = $this->title;
                         'model' => Comment::className(),
                         'searchModel' => $searchModel,
                         'options' => [
-                            ['label' => Yii::t('yee', 'Approved'), 'filterWhere' => ['status' => Comment::STATUS_APPROVED]],
-                            ['label' => Yii::t('yee', 'Pending'), 'filterWhere' => ['status' => Comment::STATUS_PENDING]],
-                            ['label' => Yii::t('yee', 'Spam'), 'filterWhere' => ['status' => Comment::STATUS_SPAM]],
-                            ['label' => Yii::t('yee', 'Trash'), 'filterWhere' => ['status' => Comment::STATUS_TRASH]],
+                            ['label' => Yii::t('rave', 'Approved'), 'filterWhere' => ['status' => Comment::STATUS_APPROVED]],
+                            ['label' => Yii::t('rave', 'Pending'), 'filterWhere' => ['status' => Comment::STATUS_PENDING]],
+                            ['label' => Yii::t('rave', 'Spam'), 'filterWhere' => ['status' => Comment::STATUS_SPAM]],
+                            ['label' => Yii::t('rave', 'Trash'), 'filterWhere' => ['status' => Comment::STATUS_TRASH]],
                         ]
                     ])
                     ?>
@@ -66,7 +66,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         Url::to(['bulk-deactivate']) => Comments::t('comments', 'Unapprove'),
                         Url::to(['bulk-spam']) => Comments::t('comments', 'Mark as Spam'),
                         Url::to(['bulk-trash']) => Comments::t('comments', 'Move to Trash'),
-                        Url::to(['bulk-delete']) => Yii::t('yee', 'Delete'),
+                        Url::to(['bulk-delete']) => Yii::t('rave', 'Delete'),
                     ]
                 ],
                 'columns' => [
@@ -82,7 +82,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         'buttonsTemplate' => '{update} {delete}',
                     ],
                     [
-                        'label' => Yii::t('yee', 'User'),
+                        'label' => Yii::t('rave', 'User'),
                         'value' => function (Comment $model) {
                             return $model->getAuthor();
                         },

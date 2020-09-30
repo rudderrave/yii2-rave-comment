@@ -1,6 +1,6 @@
 <?php
 /**
- * @link http://www.yee-soft.com/
+ * @link http://www.rave-soft.com/
  * @copyright Copyright (c) 2015 Taras Makitra
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
@@ -8,7 +8,7 @@
 namespace ravesoft\comment;
 
 /**
- * Comments Module For Yee CMS
+ * Comments Module For Rave CMS
  *
  * @author Taras Makitra <makitrataras@gmail.com>
  */
